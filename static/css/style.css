@@ -16,8 +16,6 @@ Tags: light, white, fixed-width, one-column, custom-background, custom-header, c
 ----------------------------------------------- */
 body {
 	background-color: #fff;
-	background-image: -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
-	background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
 	color: #555;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 13px;
@@ -27,12 +25,7 @@ body {
 #container {
 	height: auto;
 	margin: 0 auto;
-	width: 800px;
-}
-#header {
-	min-height: 180px;
-	padding-top: 70px;
-	width: 800px;
+	width: 1090px;
 }
 #contents {
 	border-left: 1px solid #ccc;
@@ -59,19 +52,13 @@ body {
 	text-decoration: none;
 }
 #site-title a:hover {
-	color: #36bcab;
+	color: #318ce7;
 }
 #site-description {
-	background: #f1f1f1;
-	background-image: -webkit-linear-gradient( #f8f8f8, #eee);
-	background-image: -moz-linear-gradient( #f8f8f8, #eee);
-	border-radius: 3px;
 	color: #666;
-	display: inline-block;
 	font-size: 14px;
 	font-weight: 300;
-	margin-top: 0;
-	margin-bottom: 50px;
+	margin-top: -20px;
 	padding: 6px 10px;
 }
 #menu #header-image a {
@@ -87,7 +74,7 @@ body {
 	margin-bottom: 25px;
 	padding: 10px;
 	text-align: right;
-	width: 800px;
+	width: 1090px;
 }
 #menu img {
 	margin-bottom: 10px;
@@ -108,9 +95,11 @@ body {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	display: inline;
+	float: right;
 }
 #menu li {
-	float: right;
+	float: left;
 	position: relative;
 }
 #access a {
@@ -184,15 +173,15 @@ body {
 	border-bottom: 1px dashed #ddd;
 	float: left;
 	line-height: 175%;
-	padding: 29px 5px 15px 15px;
+	padding: 5px 5px 15px 15px;
 	text-align: left;
-	width: 580px;
+	width: 880px;
 }
 .hentry .entry-meta {
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	float: left;
-	margin: 35px 0 0 -199px;
+	margin: 60px 0 0 -199px;
 	padding: 0px;
 	text-align: right;
 	text-transform: uppercase;
@@ -210,13 +199,13 @@ body {
 	margin: 0px;
 }
 .hentry .entry-meta .comments {
-	color: #36bcab;
+	color: #318ce7;
 	display: block;
 	font-size: 16px;
 	margin: -4px 0 0;
 }
 .hentry .entry-meta .comments a {
-	color: #36bcab;
+	color: #318ce7;
 	font-size: 22px;
 	font-weight: bold;
 	text-decoration: none;
@@ -231,7 +220,7 @@ body {
 	color: #777;
 }
 .hentry .entry-meta .cat-links a:hover {
-	color: #36bcab;
+	color: #318ce7;
 }
 .hentry .entry-meta .edit-link a {
 	font-size: 16px;
@@ -265,27 +254,15 @@ body {
 .single-author .entry-meta .byline {
 	display: none;
 }
-blockquote {
-	background: #eee;
-	border-left: 10px solid #36bcab;
-	color: #000;
-	font-family: Georgia, Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	padding: 10px;
-	text-align: justify;
-}
 a {
 	color: #000;
 	text-decoration: underline;
 }
 a:hover {
-	color: #36bcab;
+	color: #318ce7;
 }
 .entry-content a img {
 	border: 10px solid #ddd;
-}
-.entry-content a:hover img {
-	border: 10px solid #000;
 }
 b, strong {
 	color: #000;
@@ -302,26 +279,8 @@ b, strong {
 	margin-right: 4px;
 	padding: 3px 6px;
 }
-.entry-content table {
-	margin: 0 0 20px 0;
-	text-align: left;
-	width: 100%;
-}
-.entry-content tr th,
-.entry-content thead th {
-	color: #888;
-	font-weight: normal;
-	line-height: 20px;
-	padding: 9px 24px;
-}
-.entry-content tr td {
-	padding: 6px 24px;
-}
-.entry-content tr.alternate td {
-	background: #f5f5f5;
-}
 .page-link a {
-	background: #36bcab;
+	background: #318ce7;
 	border-radius: 26px;
 	color: #000;
 	font-weight: normal;
@@ -403,6 +362,9 @@ ul ul, ol ol, ul ol, ol ul {
 /* Aside */
 .format-aside .entry-title {
 	display: none;
+}
+.entry-content {
+	margin-bottom: 30px;
 }
 .format-aside .entry-content p:first-child {
 	margin-top: 0;
@@ -630,7 +592,7 @@ article.comment {
 	width: 80%;
 }
 #respond label {
-	background: #36bcab;
+	background: #318ce7;
 	border-radius: 3px;
 	color: #c8f1ec;
 	font-size: 13px;
@@ -808,7 +770,7 @@ article.comment {
 	width: 800px;
 }
 #footer a {
-	color: #36bcab;
+	color: #318ce7;
 	text-decoration: none;
 }
 
@@ -817,4 +779,63 @@ article.comment {
 ----------------------------------------------- */
 .sharedaddy {
 	clear: both;
+}
+
+/* Malexandre customisation */
+.entry-content ul {
+    margin-top: -15px;
+    padding-left: 20px;
+}
+.entry-content ul ul {
+    margin-top: 0;
+}
+.entry-content table {
+	color: black;
+	border-spacing: 2px;
+	margin: 20px auto;
+}
+.entry-content table td {
+	padding: 0.5em 1em;
+}
+.entry-content table thead th {
+	text-align: center;
+	padding: 0 10px;
+}
+.entry-content table tbody tr {
+	background: #cccccc;
+}
+.entry-content table tbody tr:nth-of-type(even) {
+	background: #e8edff;
+}
+.entry-content blockquote {
+    background: #f4f5f7 url(/theme/img/blockquote.gif) 3px 3px no-repeat;
+    border: 1px dashed #cccccc;
+    padding: 8px 12px 8px 36px;
+    margin: 5px 0 20px 0;
+}
+.entry-content img {
+    max-width: 80%;
+    border: 10px solid #cccccc;
+    margin: 20px auto;
+    display: block;
+    background: black;
+}
+.entry-content code {
+    border: 1px solid #cccccc;
+    background-color: #fafafa;
+    font-size: 13px;
+    padding: 1px 3px;
+    line-height: 20px;
+    margin: 0;
+    white-space: nowrap;
+    font-family: Consolas, Menlo, "Courier New", monospace;
+}
+.entry-content .codehilite {
+    margin: 1em 0;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: none repeat scroll 0 0 #222222;
+    overflow: auto;
 }
