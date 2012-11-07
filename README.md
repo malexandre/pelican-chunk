@@ -3,9 +3,12 @@ Customize version of [Chunk for Pelican by tBunnyMan](https://github.com/tbunnym
 I enlarged the site, edited style for image, code & table (among other things),
 and will add management of mobile resolution.
 
+![screenshot](https://github.com/malexandre/pelican-chunk/raw/master/screenshot.png)
+
 ## Pelican
 This is a theme for [Pelican](https://github.com/getpelican/pelican), a static blog engine
-created by [Alexis Metaireau](https://github.com/ametaireau).
+created by [Alexis Metaireau](https://github.com/ametaireau). Other themes are available on 
+[GitHub](https://github.com/getpelican/pelican-themes).
 
 ## Authors
 * [Tran (thisistran) on Twitter](http://twitter.com/#!/thisistran) (Original Wordpress)
